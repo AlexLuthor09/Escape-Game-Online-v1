@@ -1,0 +1,10 @@
+﻿Idées :
+
+- Blind test  superposé : Chaque première lettre de chaque chanson dans l'ordre anti alphabétique forme un mot de passe
+
+- Renvoid vers les porfils facebook des permanent Ocarinien et la somme des dates de naissance forme un mot de passe ou la combinaison des lettre de leurs noms 
+(voir demandez au permanent de changer leurs photo de porfil avec des lettre / chiffre caché dessus)
+
+- redirection vers le site ocarina sur les sejour de tournai aevc un indice dans la messagebox pour orienté vers quoi chercher
+
+- 4-5 video avec un thème en commun le mot de passe est le thème en commun
