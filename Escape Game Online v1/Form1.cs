@@ -43,7 +43,7 @@ namespace Escape_Game_Online_v1
         }
         //----------------- Constantes -----------------------------
 
-        string NomUtilisateur = "";
+        string NomUtilisateur = "NomUtilisateur";
        
 
         string site1 = "https://www.youtube.com";
@@ -75,8 +75,8 @@ namespace Escape_Game_Online_v1
                         GoToSite(site1);
                         break;
 
-                    case "3":                   //mot de passe pour site 3
-                        MessageBox.Show("b");
+                    case "Test":                   //mot de passe pour site 3
+                        MessageBox.Show("Ceci est une messageBox");
                         GoToSite(site3);
                         break;
 
@@ -100,6 +100,13 @@ namespace Escape_Game_Online_v1
                 MessageBox.Show("ERROR : Nom utilisateur");
             }
         }
-       
+
+        private void OcarinaBox_Load(object sender, EventArgs e)
+        {  
+            /*
+            System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"C:\Users\capal\Desktop\Projet info\Escape Game Online v1\Escape Game Online v1\mission impossible theme.wav");
+            sp.PlayLooping();
+            */
+        }
     }
 }

@@ -103,6 +103,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OcarinaBox";
+            this.Load += new System.EventHandler(this.OcarinaBox_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
