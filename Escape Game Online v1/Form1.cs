@@ -23,7 +23,7 @@ namespace Escape_Game_Online_v1
         {
             if (System.IO.File.Exists(PathVideo))
             {
-                System.Diagnostics.Process.Start(PathVideo);   
+                System.Diagnostics.Process.Start(PathVideo);
             }
             else
             {
@@ -34,7 +34,7 @@ namespace Escape_Game_Online_v1
         void GoToSite(string url)
         {
             System.Diagnostics.Process.Start(url);
-            
+
         }
         void clear()
         {
@@ -42,15 +42,15 @@ namespace Escape_Game_Online_v1
             textBoxName.Text = "";
         }
         //----------------- Constantes -----------------------------
-
+        public bool random;
         string NomUtilisateur = "NomUtilisateur";
-       
+
 
         string site1 = "https://www.youtube.com";
         string site2 = "https://www.youtube.com";
         string site3 = "https://www.youtube.com";
         string site4 = "https://www.youtube.com";
-        
+
 
         string PathVraiVideo = "VraiVideo.mp4";
 
@@ -59,12 +59,12 @@ namespace Escape_Game_Online_v1
         {
             if (textBoxName.Text == NomUtilisateur)
             {
-                switch(textBoxMP.Text)
+                switch (textBoxMP.Text)
                 {
                     case "1":                   //mot de passe pour site 1 
-                       
+
                         GoToSite(site1);
-                        MessageBox.Show("b");                       
+                        MessageBox.Show("b");
                         break;
 
                     case "2":                   //mot de passe pour site 2
@@ -93,7 +93,7 @@ namespace Escape_Game_Online_v1
                     default:
                         MessageBox.Show("ERROR : Mauvais mot de passe");
                         break;
-                }   
+                }
             }
             else
             {
@@ -102,11 +102,19 @@ namespace Escape_Game_Online_v1
         }
 
         private void OcarinaBox_Load(object sender, EventArgs e)
-        {  
+        {
             /*
             System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"C:\Users\capal\Desktop\Projet info\Escape Game Online v1\Escape Game Online v1\mission impossible theme.wav");
             sp.PlayLooping();
             */
+        }
+        private bool get()
+        {
+            return true;
+        }
+        private void set(bool r)
+        {
+            
         }
     }
 }

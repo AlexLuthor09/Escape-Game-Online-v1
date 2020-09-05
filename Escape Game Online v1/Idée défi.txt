@@ -8,3 +8,5 @@
 - redirection vers le site ocarina sur les sejour de tournai aevc un indice dans la messagebox pour orienté vers quoi chercher
 
 - 4-5 video avec un thème en commun le mot de passe est le thème en commun
+
+-incrementer les trucs

@@ -119,9 +119,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Image1.bmp" />
     <Content Include="Idée défi.txt" />
-    <Content Include="mission impossible theme.wav" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
